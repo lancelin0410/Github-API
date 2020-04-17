@@ -1,0 +1,55 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
+}
+
+.back {
+  /* The image used */
+  background-image: url("https://exfast.me/wp-content/uploads/2016/12/ce41f129301a2fef48a377d751f7e3c4.jpg");
+  /* Set a specific height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.back .profile {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.back .profile .photo {
+  background-image: url("https://avatars0.githubusercontent.com/u/59330697?s=460&u=d8759d95a849e3140208b903f3a5458b5fab369b&v=4");
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  margin: auto;
+  border-radius: 50%;
+}
+.back .profile .headtext {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  margin: auto;
+}
+.back.center {
+  height: 100px;
+}
+
+.list {
+  min-height: 50px;
+  padding: 20px 50px;
+}
+.list .text {
+  font-size: 40px;
+  text-align: center;
+}
+
+#list li h3 span, a {
+  margin-left: 50px;
+}
